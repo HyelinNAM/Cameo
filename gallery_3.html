@@ -1,0 +1,90 @@
+---
+pagination: 
+  enabled: true
+---
+
+
+{% include header.html %}
+
+    <main id="portfolio">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <div class="row text-left">
+                            <div class="col-sm-12">
+                                <h2>🔥Interactive results of SteerX🔥</h2>
+                                <!-- <p>Generating more results for fun here. Check <a href="./test_0.html">this page</a> for the comparison over 40 test prompts in our experiments.</p> -->
+                            </div>
+                        </div>
+                    
+                        <div style="font-size: 20px; text-align: center; padding: 1em">
+                            <a href="https://byeongjun-park.github.io/SteerX/">Home</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="gallery_0.html">Text-to-4D</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="gallery_1.html">Image-to-4D</a>
+                            &nbsp;&bull;&nbsp;
+                            <a href="gallery_2.html">Text-to-3D</a>
+                            &nbsp;&bull;&nbsp;
+                            <strong>Image-to-3D</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrap">
+                    <div class="row post-row">
+                        <div class="container">
+                            <div class="content">
+                                <div id="wrapper" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; text-align: center; margin-bottom: 10px;">
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/hawaii.html')">
+                                        <img src="files/image-to-3d/hawaii.jpg" alt="Hawaii 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/lighthouse.html')">
+                                        <img src="files/image-to-3d/lighthouse.jpg" alt="lighthouse 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/motorcycle.html')">
+                                        <img src="files/image-to-3d/motorcycle.jpg" alt="motorcycle 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                </div>
+
+                                <div id="wrapper" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; text-align: center; margin-bottom: 10px;">
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/rhino.html')">
+                                        <img src="files/image-to-3d/rhino.jpg" alt="rhino 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/castle.html')">
+                                        <img src="files/image-to-3d/castle.jpg" alt="castle 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/boat.html')">
+                                        <img src="files/image-to-3d/boat.jpg" alt="boat 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                </div>
+
+                                <div id="wrapper" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; text-align: center; margin-bottom: 10px;">
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/kitchen.html')">
+                                        <img src="files/image-to-3d/kitchen.jpg" alt="kitchen 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/shark.html')">
+                                        <img src="files/image-to-3d/shark.jpg" alt="shark 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                    <div class="iframe-container" onclick="showIframe(this, 'files/image-to-3d/bicycle.html')">
+                                        <img src="files/image-to-3d/bicycle.jpg" alt="bicycle 3D Model" style="width: 375px; height: 375px; cursor: pointer; border-radius: 0.5em;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+        function showIframe(container, iframeSrc) {
+            if (!container.querySelector("iframe")) {
+                container.innerHTML = `<iframe src="${iframeSrc}" style="width: 375px; height: 375px; cursor: pointer;"></iframe>`;
+            }
+        }
+    </script>
+
+{% include footer.html %}
