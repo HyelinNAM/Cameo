@@ -18,7 +18,7 @@ email: 'hyelinam@umich.edu'
 description: "Hyelin Nam<sup>1,2</sup>,&nbsp;&nbsp;Hyojun Go<sup>3</sup>,&nbsp;&nbsp;Byeongjun Park<sup>1</sup>,&nbsp;&nbsp;Byung-Hoon Kim<sup>1,4</sup>&#8224;,&nbsp;&nbsp;Hyungjin Chung<sup>1*</sup><br/><br/><sup>1</sup>EverEx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>University of Michigan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>3</sup>ETH Zurich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>4</sup>Yonsei University"
 baseurl: "/Cameo" # the subpath of your site, e.g. /blog
 url: "https://hyelinnam.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
-paper: ''
+paper: 'https://arxiv.org/abs/2510.03909'
 github_username: 'https://github.com/HyelinNAM/Cameo'
 
 # Build settings
